@@ -1,0 +1,15 @@
+# Semibold Skills — Index for AI Agents
+
+Use this file to discover which skill to load. Each skill lives in a directory of the same name under `skills/` and contains `SKILL.md`.
+
+## Skills
+
+audit-links
+  Audit and improve internal linking on any Webflow website. Crawls the site via sitemap, maps the link structure, loads CMS content via Webflow MCP, proposes contextual internal links using topical clustering and orphan-page recovery rules, and implements approved changes as CMS drafts. Never auto-publishes.
+  Triggers: internal linking, link audit, orphan pages, topic clusters, Webflow SEO, site linking, anchor text, content clustering, link matrix, inbound links, pillar page, supporting content.
+  Requires: Claude in Chrome (crawl), Webflow MCP (CMS read/write).
+
+website-screenshots
+  Take full-page PNG screenshots of any website using Playwright at 2× Retina quality. Auto-discovers pages from navigation and footer links, dismisses common cookie consent banners (iubenda, OneTrust, Cookiebot, Termly, Usercentrics, CookieScript, etc.), and scrolls the page to trigger lazy-loaded content before capturing.
+  Triggers: screenshot website, capture all pages, take screenshots of my site, full-page screenshot, website capture, bulk screenshots, Playwright screenshots, visual site snapshot.
+  Requires: Node.js + Playwright, or Python + Playwright as a fallback.

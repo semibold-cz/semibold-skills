@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "semibold-skills",
+  "description": "A growing collection of Claude Code skills from Semibold — for designers, developers, and productivity workflows",
+  "owner": {
+    "name": "Semibold",
+    "email": "ahoj@semibold.cz"
+  },
+  "plugins": [
+    {
+      "name": "semibold-skills",
+      "description": "A growing collection of Claude Code skills from Semibold — for designers, developers, and productivity workflows",
+      "author": {
+        "name": "Semibold"
+      },
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

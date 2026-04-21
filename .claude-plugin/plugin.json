@@ -1,0 +1,6 @@
+{
+  "name": "semibold-skills",
+  "description": "A growing collection of Claude Code skills from Semibold — for designers, developers, and productivity workflows",
+  "version": "1.0.0",
+  "skills": "./skills/"
+}
